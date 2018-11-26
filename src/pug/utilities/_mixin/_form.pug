@@ -319,3 +319,23 @@ mixin formBtn(classMod, btnClassMod, btnVal)
     type="submit"
     class!= btnClassMod
     )!= btnVal
+
+//- FORM LINK
+//- ========================
+
+    @param classMod {String}
+    @param hrefVal {String}
+    @param linkClassMod {String}
+    @param linkVal {String}
+
+    @example
+      +formLink('', '', '', 'Some link text')
+
+//- ========================
+mixin formLink(classMod, hrefVal, linkClassMod, linkVal)
+  .c-form__field.c-form__field--link(class!= classMod)
+    a.c-form__link(
+      href!= (hrefVal) ? hrefVal: "/"
+      class!= linkClassMod
+      title=""
+    )!= linkVal

@@ -1,0 +1,33 @@
+---
+title: DuniaPay - Register
+
+pageClassName: p-register
+---
+extends shared/_layout
+
+block content
+  div.body.body--start(class!= pageClassName)
+
+    section#sign.sign.sign--register
+      .sign__wrapper
+        .sign__wrapper-left
+        .sign__wrapper-right
+
+          h1.sign__main!= "DuniaPay"
+
+          .sign__container
+            h2.sign__title!= "Sign up"
+            p.sign__subtitle.sign__subtitle-0!= "Create an account to send money<br><a href='#'>without limits.</a>"
+
+            form.c-form.c-form--login(action='' method='' autocomplete='off')
+
+              +formInput(dataFormObj.inputFirstNameRegister)
+              +formInput(dataFormObj.inputNameRegister)
+              +formInput(dataFormObj.inputEmailRegister)
+              +formInput(dataFormObj.inputPasswordRegister)
+
+              p.sign__subtitle.sign__subtitle-1!= "By signing up your agree to our<br><a href='#'>Terms and Conditions</a>"
+
+              +formBtn('c-form__field--btn-register', '', 'Sign up')
+
+            p.sign__text!= "I already have an account. <a href='#'>Login</a>"

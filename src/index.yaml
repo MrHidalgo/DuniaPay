@@ -2,5 +2,26 @@ ProjectTitle: DuniaPay
 
 PageList:
 - file: index.html
-  titleName: Home
+  titleName: Login
+  ready: 1
+- file: register.html
+  titleName: Register
+  ready: 1
+- file: history.html
+  titleName: History
+  ready: 1
+- file: history-empty.html
+  titleName: History empty
+  ready: 1
+- file: transfer.html
+  titleName: New transfer
+  ready: 1
+- file: transfer-details.html
+  titleName: Transfer details
+  ready: 1
+- file: transaction.html
+  titleName: Transaction details
+  ready: 1
+- file: payment.html
+  titleName: Add payment
   ready: 1

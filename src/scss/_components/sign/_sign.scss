@@ -1,0 +1,125 @@
+// SECTION SIGN :: START
+
+.sign {
+  &__wrapper {
+    display: flex;
+    min-height: 100vh;
+
+    &-left {
+      width: 100%;
+      max-width: calc(100% - 803px);
+      background-image: url('../img/img-bg-sign.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    &-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 803px;
+      padding: 15px;
+      background-color: rgba(#D8D8D8, 0.69);
+    }
+  }
+
+  &__container {
+    width: 100%;
+    max-width: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    .sign--login & {
+      padding-bottom: 83px;
+    }
+
+    .sign--register & {
+      padding-bottom: 17px;
+    }
+  }
+
+  &__main {
+    padding-bottom: 80px;
+    color: #007BFF;
+    letter-spacing: 0.28px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  &__title {
+    padding-bottom: 120px;
+    color: #25265E;
+    letter-spacing: 0.76px;
+    line-height: line-height-convert(26,40);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+    .sign--register & {
+      padding-bottom: 65px;
+    }
+  }
+
+  &__subtitle {
+    padding-bottom: 35px;
+    color: #787993;
+    font-weight: bold;
+
+    &-1 {
+      opacity: 0.5;
+      padding-bottom: 27px;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .sign--login & {
+      padding-top: 69px;
+      padding-bottom: 0;
+      text-align: center;
+    }
+
+    a {
+      position: relative;
+      color: #007BFF;
+
+      &:before {
+        content: '';
+        z-index: 0;
+        position: absolute;
+        top: calc(100% + 2px);
+        left: 20px;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(#FF7052, 0.15);
+
+        .sign--register & {
+          top: 50%;
+        }
+      }
+    }
+  }
+
+  &__text {
+    padding-bottom: 35px;
+    color: #787993;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+
+    .sign--register & {
+      padding-top: 27px;
+      padding-bottom: 0;
+      text-align: center;
+      
+      a {
+        color: #7540EE;
+      }
+    }
+  }
+}
+
+// SECTION SIGN :: END

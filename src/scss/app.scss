@@ -21,7 +21,7 @@
 /// ===============
 @import "_shared/fonts";
 @import "_shared/main-setting-reset";
-@import "_shared/grid";
+//@import "_shared/grid";
 @import "_shared/common";
 //@import "_shared/viewPortChecker";
 //@import "_shared/magnificPopup";
@@ -39,9 +39,14 @@
 //@import "_macros/subtitle";
 //@import "_macros/btn";
 //@import "_macros/modal";
-//@import "_macros/form";
+@import "_macros/form";
 ///
 /// COMPONENTS
 /// ===============
-//@import "_components/header";
-//@import "_components/footer";
+@import "_components/header";
+@import "_components/footer";
+
+@import "_components/sign/sign";
+@import "_components/history/history";
+@import "_components/transfer/transfer";
+@import "_components/transaction/transaction";
