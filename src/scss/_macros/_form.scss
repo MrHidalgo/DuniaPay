@@ -114,6 +114,9 @@ $form-notify-font-weight: bold;
   &__group {
     display: flex;
     align-items: flex-start;
+    @include respond($mq-max-extra-small) {
+      flex-direction: column;
+    }
 
     &--two,
     &--three {
@@ -123,6 +126,13 @@ $form-notify-font-weight: bold;
     &--two {
       .c-form__group-col {
         width: calc(50% - #{$form-field-group-two-margin});
+        @include respond($mq-max-extra-small) {
+          width: 100%;
+
+          &:first-child {
+            margin-bottom: 30px;
+          }
+        }
       }
     }
 
@@ -348,11 +358,25 @@ $form-notify-font-weight: bold;
     }
 
     &--btn {
+      &-login {
+        .c-form__btn {
+          @include respond($mq-max-extra-small) {
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
       &-register {
         .c-form__btn {
           margin-left: auto;
           margin-right: auto;
         }
+      }
+    }
+
+    &--link {
+      @include respond($mq-max-extra-small) {
+        text-align: center;
       }
     }
   }

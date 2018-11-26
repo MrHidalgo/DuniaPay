@@ -28,6 +28,24 @@ body {
   font-family: "CircularStd", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  $maxWidth: 100%;
+  @include respond(small) {
+    max-width: $maxWidth;
+  }
+  @include respond(large) {
+    max-width: $maxWidth;
+  }
+  @include respond(extra-large) {
+    max-width: $maxWidth;
+  }
+  @include respond(medium) {
+    max-width: $maxWidth;
+  }
+  @include respond(wide-small) {
+    max-width: $maxWidth;
+  }
 }
 
 body {

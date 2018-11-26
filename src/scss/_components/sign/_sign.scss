@@ -12,6 +12,18 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      @include respond($mq-max-extra-large) {
+        max-width: calc(100% - 600px);
+      }
+      @include respond($mq-max-medium) {
+        max-width: calc(100% - 450px);
+      }
+      @include respond($mq-max-small) {
+        max-width: calc(100% - 380px);
+      }
+      @include respond($mq-max-extra-small) {
+        display: none;
+      }
     }
 
     &-right {
@@ -20,19 +32,37 @@
       align-items: center;
       justify-content: center;
       width: 803px;
-      padding: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
       background-color: rgba(#D8D8D8, 0.69);
+      @include fluid(padding-top padding-bottom, 320px, 1440px, 30px, 50px);
+      @include respond($mq-max-extra-large) {
+        width: 600px;
+      }
+      @include respond($mq-max-medium) {
+        width: 450px;
+      }
+      @include respond($mq-max-small) {
+        width: 380px;
+      }
+      @include respond($mq-max-extra-small) {
+        width: 100%;
+      }
     }
   }
 
   &__container {
+    overflow: hidden;
     width: 100%;
     max-width: 455px;
     margin-left: auto;
     margin-right: auto;
-    padding: 45px 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     border-radius: 10px;
     background-color: #fff;
+    @include fluid(padding-left padding-right, 320px, 1440px, 15px, 30px);
+
 
     .sign--login & {
       padding-bottom: 83px;
@@ -44,24 +74,24 @@
   }
 
   &__main {
-    padding-bottom: 80px;
     color: #007BFF;
     letter-spacing: 0.28px;
-    font-size: 40px;
     font-weight: bold;
+    @include fluid(padding-bottom, 320px, 1440px, 40px, 80px);
+    @include fluid(font-size, 320px, 1440px, 30px, 40px);
   }
 
   &__title {
-    padding-bottom: 120px;
     color: #25265E;
     letter-spacing: 0.76px;
     line-height: line-height-convert(26,40);
     text-align: center;
-    font-size: 40px;
     font-weight: bold;
+    @include fluid(padding-bottom, 320px, 1440px, 60px, 120px);
+    @include fluid(font-size, 320px, 1440px, 30px, 40px);
 
     .sign--register & {
-      padding-bottom: 65px;
+      @include fluid(padding-bottom, 320px, 1440px, 30px, 65px);
     }
   }
 
@@ -78,9 +108,9 @@
     }
 
     .sign--login & {
-      padding-top: 69px;
       padding-bottom: 0;
       text-align: center;
+      @include fluid(padding-top, 320px, 1440px, 35px, 69px);
     }
 
     a {

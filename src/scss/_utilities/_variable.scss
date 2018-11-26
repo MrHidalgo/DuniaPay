@@ -21,6 +21,7 @@ $object: (
   ),
   media-queries : (
     extra-small           : 'extra-small',
+    max-extra-small       : 'max-extra-small',
     small                 : 'small',
     max-small             : 'max-small',
     medium                : 'medium',
@@ -53,6 +54,7 @@ $c-warning                : return-value(colors, warning);
 $c-danger                 : return-value(colors, danger);
 
 $mq-extra-small           : return-value(media-queries, extra-small);
+$mq-max-extra-small       : return-value(media-queries, max-extra-small);
 $mq-small                 : return-value(media-queries, small);
 $mq-max-small             : return-value(media-queries, max-small);
 $mq-medium                : return-value(media-queries, medium);
