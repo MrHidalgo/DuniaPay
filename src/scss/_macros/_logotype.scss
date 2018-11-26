@@ -37,6 +37,9 @@
       letter-spacing: 0.4px;
       font-size: 18px;
       font-weight: bold;
+      @include respond($mq-max-extra-small) {
+        padding-left: 15px;
+      }
     }
   }
 }
