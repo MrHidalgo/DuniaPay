@@ -5,5 +5,10 @@ pageClassName: p-history
 ---
 extends shared/_layout
 
+
+block header
+  include ./components/_header
+
+
 block content
   div.body.body--start(class!= pageClassName)

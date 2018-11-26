@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>team</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="team" transform="translate(1.000000, 1.000000)" fill="#FFFFFF" stroke="#FFFFFF">
+            <rect id="Rectangle" x="0" y="0" width="1.5" height="14" rx="0.5"></rect>
+            <rect id="Rectangle" x="13" y="0" width="1.5" height="14" rx="0.5"></rect>
+            <rect id="Rectangle" stroke-linejoin="round" transform="translate(3.371356, 3.121285) rotate(-45.001440) translate(-3.371356, -3.121285) " x="2.62135578" y="-0.378715054" width="1.5" height="7" rx="0.5"></rect>
+            <rect id="Rectangle" transform="translate(11.078480, 10.828374) rotate(-45.001440) translate(-11.078480, -10.828374) " x="10.3284801" y="7.32837358" width="1.5" height="7" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

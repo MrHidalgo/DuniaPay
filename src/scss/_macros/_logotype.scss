@@ -1,5 +1,44 @@
 // LOGOTYPE :: START
 
-.logo {}
+.logo {
+  &--header {
+    .logo__link {
+      display: flex;
+
+      svg {
+        fill: $c-white;
+      }
+    }
+  }
+
+  &--subheader {
+    .logo__link {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo__svg-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+      background-color: #00D85A;
+
+      svg {
+        fill: $c-white;
+      }
+    }
+
+    .logo__text {
+      padding-left: 16px;
+      color: #25265E;
+      letter-spacing: 0.4px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
 
 // LOGOTYPE :: END

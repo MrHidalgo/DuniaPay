@@ -53,6 +53,17 @@ mixin logotypeImgText(classMod, hrefVal, imgName, imgExt, txtVal)
         )
       p.logo__text!= txtVal
 
+mixin logotypeSVGText(classMod, hrefVal, svgName, txtVal)
+  .logo(class!= "logo--" + classMod)
+    a(
+      href!= (hrefVal) ? hrefVal : "/"
+      title="" class="logo__link"
+    )
+      .logo__svg-wrap
+        +iconSVG(svgName)
+
+      p.logo__text!= txtVal
+
 mixin logotypeText(classMod, hrefVal, txtVal)
   .logo(class!= "logo--" + classMod)
     a(

@@ -1,7 +1,31 @@
 // HEADER :: START
 
 header#header.header
-  .c-grid
-    .header__wrapper
+  .header__wrapper
+    .header__col.header__col-0
+      +logotypeSVG('header', '', 'logo')
+
+    .header__col.header__col-1
+      +logotypeSVGText('subheader', '', 'team', 'DuniaPay')
+
+    .header__col.header__col-2
+
+    .header__col.header__col-3
+      .header__col-left
+
+        a.header__notify.is-notify(href="#" class="" title="")
+          +iconSVG('notification')
+
+
+      .header__col-right
+
+        .header__profile
+          .header__profile-left
+            p.header__profile-name!= "Hello, <span>Patryk</span>"
+
+          .header__profile-right
+            a.header__profile-img(href='#' title='')
+              img(src="./img/img-user.png" srcset="./img/img-user@2x.png 2x" alt="" title="")
+            +iconSVG('arrow')
 
 // HEADER :: END
