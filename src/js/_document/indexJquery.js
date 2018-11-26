@@ -17,10 +17,30 @@ $(document).ready((ev) => {
 	* =============================================
 	* CALLBACK :: start
 	* ============================================= */
+  /**
+   *
+   */
+  const initAsideBtn = () => {
+    $('.aside__nav-link').on('click', (ev) => {
+      const elem = $(ev.currentTarget);
 
-	/*
-	* CALLBACK :: end
-	* ============================================= */
+      $('.aside__nav-link').removeClass('is-active');
+      elem.addClass('is-active');
+    });
+  };
+
+
+  /**
+   *
+   */
+  const initAsideMenu = () => {
+    $('.aside__menu-btn').on('click', (ev) => {
+      $(ev.currentTarget).toggleClass('is-active');
+    });
+  };
+  /*
+  * CALLBACK :: end
+  * ============================================= */
 
 
 
@@ -38,6 +58,8 @@ $(document).ready((ev) => {
 		// ==========================================
 
     // callback
+    initAsideBtn();
+    initAsideMenu();
 		// ==========================================
   };
   initJquery();
