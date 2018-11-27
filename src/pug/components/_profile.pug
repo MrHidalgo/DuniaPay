@@ -1,0 +1,47 @@
+// PROFILE :: START
+
+section#profile.profile
+  .profile__wrapper
+
+    .profile__card
+      .profile__card-img
+        div
+          img(src="./img/img-user.png" srcset="./img/img-user@2x.png 2x" alt="" title="")
+        a(href="#" class="" title="")
+          +iconSVG('pencil')
+
+      h2.profile__card-name!= "Patryk Pustół"
+      a.profile__card-email(href="mailto:sasp@gmail.com")!= "sasp@gmail.com"
+      a.profile__card-phone(href="tel:+1-873-353-7096")!= "+1-873-353-7096"
+      p.profile__card-address!= "Ottawa, Canada"
+
+      .profile__card-box
+        div
+          p!= "Invites"
+          span!= "03"
+        div
+          p!= "Transactions"
+          span!= "<i></i>02"
+
+    .profile__box.profile__box-0
+      .profile__box-top
+        p.profile__box-title!= "Payment mode"
+        +iconSVG('star')
+
+      .profile__box-middle
+        p.profile__box-name!= "Visa"
+
+      .profile__box-bottom
+        p.profile__box-info!= "43xx-xxxx-xxxx-1564"
+        a.profile__box-btn(href="#" class="" title="")!= "Add new"
+
+
+    .profile__box.profile__box-1
+      .profile__box-top
+        p.profile__box-title!= "add payment mode"
+
+      .profile__box-bottom
+        a.profile__box-btn(href="#" class="" title="")!= "Add new"
+        a.profile__box-btn(href="#" class="" title="")!= "Add new"
+
+// PROFILE :: END
