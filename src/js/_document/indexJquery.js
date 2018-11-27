@@ -20,6 +20,17 @@ $(document).ready((ev) => {
   /**
    *
    */
+  $('body').on('click', (ev) => {
+    const className = ".header__profile";
+
+    if (!$(ev.target).closest(className).length) {
+      $('.header__profile-drop').fadeOut(300);
+    }
+  });
+
+  /**
+   *
+   */
   const initAsideBtn = () => {
     $('.aside__nav-link').on('click', (ev) => {
       const elem = $(ev.currentTarget);
@@ -56,6 +67,16 @@ $(document).ready((ev) => {
       elem.addClass('is-active');
     });
   };
+
+
+  /**
+   *
+   */
+  const initHeaderProfileDropDown = () => {
+    $('.header__profile').on('click', (ev) => {
+      $(ev.currentTarget).find('.header__profile-drop').fadeToggle(300);
+    });
+  };
   /*
   * CALLBACK :: end
   * ============================================= */
@@ -79,6 +100,7 @@ $(document).ready((ev) => {
     initAsideBtn();
     initAsideMenu();
     initSidebarBtn();
+    initHeaderProfileDropDown();
 		// ==========================================
   };
   initJquery();
