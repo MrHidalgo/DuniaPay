@@ -41,6 +41,7 @@
 
   &__row {
     overflow-y: auto;
+    position: relative;
     min-height: calc(100vh - (108px + 91px));
 
     &-top {
@@ -53,6 +54,37 @@
     }
   }
 
+  &__btn {
+    z-index: 99;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 40px;
+    bottom: 40px;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: #007BFF;
+    box-shadow: 0 4px 29px 0 rgba(#7540EE, 0.4);
+    @include transition(box-shadow);
+
+    &:hover {
+      box-shadow: 0 2px 29px 0 rgba(#7540EE, 0.2);
+      @include transition(box-shadow);
+
+      svg {
+        transform: scale(1.2);
+        @include transition(transform);
+      }
+    }
+
+    .icon-svg {
+      fill: $c-white;
+      @include transition(transform);
+    }
+  }
 
   &__info {
     padding-top: 40px;
