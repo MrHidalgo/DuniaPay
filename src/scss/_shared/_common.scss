@@ -1,56 +1,71 @@
 // COMMON :: START
 
-// section
-.section {
-  height: 100vh;
-  min-height: 100vh;
-  max-height: 100vh;
-  padding-top: 108px;
-  padding-left: 108px;
+// wrapper
+.wrapper {
+  z-index: 99;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  top: 108px;
+  left: 108px;
+  width: 100%;
+  height: calc(100vh - 108px);
+}
+// wrapper :: end
+
+// main
+.main {
+  overflow-y: auto;
+  width: calc(100% - (499px + 108px));
+  height: calc(100vh - 108px);
+  min-height: calc(100vh - 108px);
+  max-height: calc(100vh - 108px);
   @include transition(padding-left);
 
   .is-menu-open & {
-    padding-left: calc(108px + 257px);
+    padding-left: 257px;
     @include transition(padding-left);
   }
+}
+// main :: end
+
+// section
+.section {
+  overflow-y: auto;
+  width: 499px;
+  height: calc(100vh - 108px);
+  min-height: calc(100vh - 108px);
+  max-height: calc(100vh - 108px);
+  border-left: 1px solid #ECECEE;
 
   &__wrapper {
-    display: flex;
+    position: relative;
     height: 100%;
+  }
 
-    &-left,
-    &-right {
-      height: calc(100vh - 108px);
-    }
+  &__title {
+    display: flex;
+    align-items: center;
+    height: 91px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ECECEE;
 
-    &-left {
-      width: calc(100% - 499px);
-    }
-
-    &-right {
-      width: 499px;
-      border-left: 1px solid #ECECEE;
-
-      .section__row {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
+    p {
+      color: #25265E;
+      font-size: 18px;
+      font-weight: bold;
     }
   }
 
-  &__row {
+  &__scroll {
     overflow-y: auto;
     position: relative;
-    min-height: calc(100vh - (108px + 91px));
+    min-height: 500px;
+    height: calc(100vh - (108px + 91px));
 
-    &-top {
-      min-height: 500px;
-      height: 100%;
-    }
-
-    &-bottom {
-      height: 169px;
+    #section & {
+      height: calc(100% - (169px + 91px));
     }
   }
 
@@ -87,6 +102,8 @@
   }
 
   &__info {
+    position: relative;
+    height: 169px;
     padding-top: 40px;
     padding-left: 40px;
     background-color: #2DC76D;
@@ -137,21 +154,6 @@
     &-description {
       color: $c-white;
       letter-spacing: 0.26px;
-      font-size: 18px;
-      font-weight: bold;
-    }
-  }
-
-  &__title {
-    display: flex;
-    align-items: center;
-    height: 91px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom: 1px solid #ECECEE;
-
-    p {
-      color: #25265E;
       font-size: 18px;
       font-weight: bold;
     }
