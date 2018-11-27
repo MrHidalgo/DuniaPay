@@ -72,7 +72,8 @@
     }
 
     &--noTransactions {
-      padding-top: 101px;
+      @include fluid(padding-top, 320px, 1920px, 50px, 101px);
+      @include fluid(padding-bottom, 320px, 1920px, 50px, 101px);
     }
 
     &--historyEmpty {

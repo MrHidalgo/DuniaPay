@@ -1,0 +1,25 @@
+// SECTION CVV :: START
+
+section#cvv.cvv
+  .cvv__wrapper
+
+    .cvv__box
+
+      form.c-form.c-form--cvv(action='' method='' autocomplete='off')
+        .c-form__group
+          .c-form__field
+            +formLabel("Add a new card")
+
+        +formInput(dataFormObj.inputCardNumber)
+
+        .c-form__group.c-form__group--two
+
+          .c-form__group-col.c-form__group-col-0
+            +formInput(dataFormObj.inputCardData)
+
+          .c-form__group-col.c-form__group-col-1
+            +formInput(dataFormObj.inputCardCvv)
+
+        +formBtn('', '', 'Add')
+
+// SECTION CVV :: END

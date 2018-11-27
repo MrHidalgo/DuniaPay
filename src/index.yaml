@@ -24,4 +24,4 @@ PageList:
   ready: 15
 - file: payment.html
   titleName: Add payment
-  ready: 15
+  ready: 55

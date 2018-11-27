@@ -22,7 +22,7 @@ $form-field-textarea-height: 150px;
 // label
 $form-label-height: auto;
 $form-label-margin-bottom: 10px;
-$form-label-font-size: 16px;
+$form-label-font-size: 13px;
 
 // input
 $form-input-border-radius: 0;
@@ -389,6 +389,11 @@ $form-notify-font-weight: bold;
     margin-bottom: $form-label-margin-bottom;
     font-size: $form-label-font-size;
     @include transition(color);
+
+    .c-form--cvv & {
+      color: #323C47;
+      font-weight: 500;
+    }
   }
 
   &__input,
@@ -413,6 +418,12 @@ $form-notify-font-weight: bold;
     @include inputPlaceholder {
       color: $form-input-placeholder-color;
       font-weight: $form-input-placeholder-font-weight;
+
+      .c-form--cvv & {
+        color: rgba(#323C47, 0.3);
+        font-size: 13px;
+        font-weight: normal;
+      }
     }
   }
 
@@ -425,8 +436,18 @@ $form-notify-font-weight: bold;
     font-size: $form-input-font-size;
     @include transition(border-color, color);
 
+    .c-form--cvv & {
+      padding: 0 15px;
+      border-radius: 4px;
+      border: 1px solid #E9EFF4;
+    }
+
     &-wrapper {
       height: $form-field-input-height;
+
+      .c-form--cvv & {
+        height: 45px;
+      }
     }
   }
 
@@ -667,6 +688,20 @@ $form-notify-font-weight: bold;
       background-color: #fff;
       color: #007BFF;
       @include transition(background-color, color);
+    }
+
+    .c-form--cvv & {
+      border-radius: 0;
+      max-width: 100%;
+      background-color: #4DA1FF;
+      border-color: #4DA1FF;
+      font-size: 14px;
+      font-weight: normal;
+
+      &:hover {
+        background-color: transparent;
+        color: #4DA1FF;
+      }
     }
   }
 
