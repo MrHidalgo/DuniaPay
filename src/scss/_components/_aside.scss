@@ -47,9 +47,8 @@
       @include transition(background-color, border-color);
 
       &:hover {
-        border-color: #FFC800;
         background-color: rgba(#25265E, 0.125);
-        @include transition(border-color);
+        @include transition(background-color);
       }
 
       &.is-active {
