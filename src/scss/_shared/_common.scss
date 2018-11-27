@@ -1,5 +1,6 @@
 // COMMON :: START
 
+
 // wrapper
 .wrapper {
   z-index: 99;
@@ -12,6 +13,7 @@
   height: calc(100vh - 108px);
 }
 // wrapper :: end
+
 
 // main
 .main {
@@ -28,6 +30,7 @@
   }
 }
 // main :: end
+
 
 // section
 .section {
@@ -67,6 +70,13 @@
     #section & {
       height: calc(100% - (169px + 91px));
     }
+
+    &--historyEmpty {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__btn {
@@ -102,7 +112,7 @@
   }
 
   &__info {
-    position: relative;
+    display: block;
     height: 169px;
     padding-top: 40px;
     padding-left: 40px;
@@ -160,5 +170,6 @@
   }
 }
 // section :: end
+
 
 // COMMON :: END
