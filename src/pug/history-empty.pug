@@ -24,7 +24,8 @@ block content
           .section__title
             p!= "Transactions history"
 
-          .section__scroll
+          .section__scroll.section__scroll--noTransactions
+            include components/_no-transactions
 
             a.section__btn(href="#" class="" title="")
               +iconSVG('plus')
@@ -36,7 +37,7 @@ block content
             p!= "Contacts list"
 
           .section__scroll.section__scroll--historyEmpty
-            include ./components/history/_no-contacts
+            include components/_no-contacts
 
           a.section__info(href="#" title="")
             .section__info-wrapper

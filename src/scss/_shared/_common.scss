@@ -71,6 +71,10 @@
       height: calc(100% - (169px + 91px));
     }
 
+    &--noTransactions {
+      padding-top: 101px;
+    }
+
     &--historyEmpty {
       display: flex;
       flex-direction: column;

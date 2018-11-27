@@ -1,0 +1,33 @@
+// SECTION NO-TRANSACTIONS :: START
+
+.no-transactions {
+  padding: 15px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    &-top {
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &-bottom {
+      p {
+        color: #25265E;
+        text-align: center;
+        letter-spacing: 0.39px;
+        font-weight: bold;
+        @include fluid(font-size, 320px, 768px, 18px, 24px);
+      }
+    }
+  }
+}
+
+// SECTION NO-TRANSACTIONS :: END
