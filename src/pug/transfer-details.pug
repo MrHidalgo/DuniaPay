@@ -18,25 +18,31 @@ block sidebar
 block content
   div.body.body--start(class!= pageClassName)
 
-    section#section.section
-      .section__wrapper
-        .section__wrapper-left
+    .wrapper
+      main#main.main
+        .section__wrapper
           .section__title
             p!= "New transfer"
 
-        .section__wrapper-right
+          .section__scroll
+
+            a.section__btn(href="#" class="" title="")
+              +iconSVG('plus')
+
+
+      section#section.section
+        .section__wrapper
           .section__title
             p!= "Contacts list"
 
-          .section__row
-            .section__row-top
-            .section__row-bottom.section__info
-              .section__info-wrapper
-                div
-                  +iconSVG('logo')
-                div
-                  p.section__info-title
-                    span!= "Get a free transfer"
-                    a(href="#" class="" title="")
-                      +iconSVG('arrow-lg')
-                  p.section__info-description!= "Share with friends and<br>get your next transfer free"
+          .section__scroll
+
+          .section__row-bottom.section__info
+            .section__info-wrapper
+              div
+                +iconSVG('logo')
+              div
+                p.section__info-title
+                  span!= "Get a free transfer"
+                  +iconSVG('arrow-lg')
+                p.section__info-description!= "Share with friends and<br>get your next transfer free"

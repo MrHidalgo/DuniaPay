@@ -2,16 +2,13 @@
 
 .cvv {
   padding: 15px;
+  width: 100%;
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
 
-  &__wrapper {
-    @include fluid(padding-top padding-bottom, 320px, 1920px, 35px, 234px);
-  }
 
   &__box {
-    width: 100%;
-    max-width: 303px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 30px;
     border-radius: 6px;
     background-color: #F6F6F6;
