@@ -1,3 +1,130 @@
 // COMMON :: START
 
+// section
+.section {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding-top: 108px;
+  padding-left: 108px;
+  @include transition(padding-left);
+
+  .is-menu-open & {
+    padding-left: calc(108px + 257px);
+    @include transition(padding-left);
+  }
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+
+    &-left,
+    &-right {
+      height: calc(100vh - 108px);
+    }
+
+    &-left {
+      width: calc(100% - 499px);
+    }
+
+    &-right {
+      width: 499px;
+      border-left: 1px solid #ECECEE;
+
+      .section__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__row {
+    overflow-y: auto;
+    min-height: calc(100vh - (108px + 91px));
+
+    &-top {
+      min-height: 500px;
+      height: 100%;
+    }
+
+    &-bottom {
+      height: 169px;
+    }
+  }
+
+
+  &__info {
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: #2DC76D;
+    background-image: url('../img/img-circle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-wrapper {
+      display: flex;
+
+      > div {
+        &:first-child {
+          width: 48px;
+
+          svg {
+            fill: rgba($c-white, 0.5);
+          }
+        }
+
+        &:last-child {
+          width: calc(100% - 48px);
+        }
+      }
+    }
+
+    &-title {
+      display: flex;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $c-white;
+      line-height: 1;
+      letter-spacing: 0.35px;
+      font-size: 24px;
+      font-weight: bold;
+
+      span {
+        margin-right: 10px;
+      }
+
+      .icon-svg {
+        width: 30px;
+        height: 15px;
+        fill: rgba($c-white, 0.5);
+      }
+    }
+
+    &-description {
+      color: $c-white;
+      letter-spacing: 0.26px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    height: 91px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ECECEE;
+
+    p {
+      color: #25265E;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
+// section :: end
+
 // COMMON :: END
