@@ -140,6 +140,8 @@
   }
 
   &__profile {
+    cursor: pointer;
+    user-select: none;
     display: flex;
     align-items: center;
 
@@ -171,7 +173,7 @@
       letter-spacing: 0.16px;
       font-size: 18px;
       font-weight: 600;
-      font-family: 'SF Pro Display', sans-serif;
+      font-family: 'SFProDisplay', sans-serif;
 
       span {
         color: #7540EE;

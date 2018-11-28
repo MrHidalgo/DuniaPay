@@ -1,0 +1,83 @@
+// SECTION TRANSFER :: START
+
+section#transfer.transfer
+  h1.transfer__title!= "how much money you are sending?"
+
+  form(action="" method="" autocomplete="off")
+    .transfer__box
+      .transfer__box-top
+        .transfer__box-input.transfer__box-input-0
+          input(type="number" value="1400")
+          .transfer__box-drop
+            a(href="#" transfer-btn-js)
+              div
+                p!= "USD"
+              div
+                img(src="./img/usa.png" alt="" title="")
+              div
+                span
+            .transfer__box-dropdown
+              span
+              div
+                ul
+                  each val, idx in [0,1,2,3,4,5,6,7,8]
+                    li
+                      a(href='#')
+                        div
+                          p!= "EUR"
+                        div
+                          img(src="./img/fr.png" srcset="" alt="" title="")
+                        div
+                    li
+                      a(href='#')
+                        div
+                          p!= "USD"
+                        div
+                          img(src="./img/usa.png" srcset="" alt="" title="")
+                        div
+
+        p.transfer__box-subtitle!= "reciver will get"
+
+        .transfer__box-input.transfer__box-input-1
+          input(type="number" value="982")
+          .transfer__box-drop
+            a(href="#" transfer-btn-js)
+              div
+                p!= "EUR"
+              div
+                img(src="./img/fr.png" srcset="" alt="" title="")
+              div
+                span
+            .transfer__box-dropdown
+              span
+              div
+                ul
+                  each val, idx in [0,1,2,3,4,5,6,7,8]
+                    li
+                      a(href='#')
+                        div
+                          p!= "EUR"
+                        div
+                          img(src="./img/fr.png" srcset="" alt="" title="")
+                        div
+                    li
+                      a(href='#')
+                        div
+                          p!= "USD"
+                        div
+                          img(src="./img/usa.png" srcset="" alt="" title="")
+                        div
+
+
+      .transfer__box-bottom
+        div
+          p!= "Current rate :"
+          p!= "<span>1</span> <span>USD</span> -> <span>0.8574532</span> <span>EU</span>"
+
+        div
+          p!= "You pay :"
+          p!= "<span>$</span><span>10</span>"
+
+    button.transfer__btn(type='submit')!= "send"
+
+// SECTION TRANSFER :: END

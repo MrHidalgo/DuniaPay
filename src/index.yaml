@@ -9,7 +9,7 @@ PageList:
   ready: 80
 - file: history.html
   titleName: History
-  ready: 25
+  ready: 55
 - file: history-empty.html
   titleName: History empty
   ready: 55
