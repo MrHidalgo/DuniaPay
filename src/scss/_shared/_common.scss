@@ -6,11 +6,31 @@
   z-index: 98;
   overflow: hidden;
   position: fixed;
-  display: flex;
   top: 108px;
   left: 108px;
   width: 100%;
   height: calc(100vh - 108px);
+  @include respond($mq-max-large) {
+    overflow-x: auto;
+    display: inline-block;
+  }
+  @include respond($mq-max-small) {
+    top: 68px;
+    left: 75px;
+    height: calc(100vh - 68px);
+  }
+
+  &__cover {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    @include respond($mq-max-large) {
+      width: calc(593px + 499px + 108px);
+    }
+    @include respond($mq-max-small) {
+      width: calc(593px + 499px + 75px);
+    }
+  }
 }
 // wrapper :: end
 
@@ -23,10 +43,20 @@
   min-height: calc(100vh - 108px);
   max-height: calc(100vh - 108px);
   @include transition(padding-left);
+  @include respond($mq-max-large) {
+    width: 593px;
+  }
+  @include respond($mq-max-small) {
+    height: calc(100vh - 68px);
+    min-height: calc(100vh - 68px);
+    max-height: calc(100vh - 68px);
+  }
 
   .is-menu-open & {
-    padding-left: 257px;
-    @include transition(padding-left);
+    @include respond($mq-wide-large) {
+      padding-left: 257px;
+      @include transition(padding-left);
+    }
   }
 }
 // main :: end
@@ -40,6 +70,14 @@
   min-height: calc(100vh - 108px);
   max-height: calc(100vh - 108px);
   border-left: 1px solid #ECECEE;
+  @include respond($mq-max-large) {
+    width: 499px;
+  }
+  @include respond($mq-max-small) {
+    height: calc(100vh - 68px);
+    min-height: calc(100vh - 68px);
+    max-height: calc(100vh - 68px);
+  }
 
   &__wrapper {
     position: relative;
@@ -115,6 +153,9 @@
     background-color: #007BFF;
     box-shadow: 0 4px 29px 0 rgba(#7540EE, 0.4);
     @include transition(box-shadow);
+    @include respond($mq-max-large) {
+      display: none;
+    }
 
     &:hover {
       box-shadow: 0 2px 29px 0 rgba(#7540EE, 0.2);

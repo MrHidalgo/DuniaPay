@@ -19,32 +19,33 @@ block content
   div.body.body--start(class!= pageClassName)
 
     .wrapper
-      main#main.main
-        .section__wrapper
-          .section__title
-            p!= "Transactions history"
+      .wrapper__cover
+        main#main.main
+          .section__wrapper
+            .section__title
+              p!= "Transactions history"
 
-          .section__scroll.section__scroll--noTransactions
-            include components/_no-transactions
+            .section__scroll.section__scroll--noTransactions
+              include components/_no-transactions
 
-            a.section__btn(href="#" class="" title="")
-              +iconSVG('plus')
+              a.section__btn(href="#" class="" title="")
+                +iconSVG('plus')
 
 
-      section#section.section
-        .section__wrapper
-          .section__title
-            p!= "Contacts list"
+        section#section.section
+          .section__wrapper
+            .section__title
+              p!= "Contacts list"
 
-          .section__scroll.section__scroll--historyEmpty
-            include components/_no-contacts
+            .section__scroll.section__scroll--historyEmpty
+              include components/_no-contacts
 
-          a.section__info(href="#" title="")
-            .section__info-wrapper
-              div
-                +iconSVG('logo')
-              div
-                p.section__info-title
-                  span!= "Get a free transfer"
-                  +iconSVG('arrow-lg')
-                p.section__info-description!= "Share with friends and<br>get your next transfer free"
+            a.section__info(href="#" title="")
+              .section__info-wrapper
+                div
+                  +iconSVG('logo')
+                div
+                  p.section__info-title
+                    span!= "Get a free transfer"
+                    +iconSVG('arrow-lg')
+                  p.section__info-description!= "Share with friends and<br>get your next transfer free"

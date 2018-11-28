@@ -137,8 +137,16 @@ $form-notify-font-weight: bold;
     }
 
     &--three {
+      @include respond($mq-max-small) {
+        flex-direction: column;
+      }
+
       .c-form__group-col {
         width: calc((100% / 3) - #{$form-field-group-three-margin});
+
+        @include respond($mq-max-small) {
+          width: 100%;
+        }
       }
     }
 
@@ -398,8 +406,8 @@ $form-notify-font-weight: bold;
     .c-form--details & {
       color: #495057;
       letter-spacing: -0.37px;
-      font-size: 21px;
       font-family: 'Run', sans-serif;
+      @include fluid(font-size, 320px, 1440px, 16px, 21px);
     }
   }
 
@@ -434,8 +442,8 @@ $form-notify-font-weight: bold;
 
       .c-form--details & {
         color: #B9BBBE;
-        font-size: 20px;
         font-weight: normal;
+        @include fluid(font-size, 320px, 1440px, 16px, 20px);
       }
     }
   }
@@ -459,8 +467,8 @@ $form-notify-font-weight: bold;
       padding: 0 15px;
       border-radius: 6px;
       border: 1px solid #BECAD6;
-      font-size: 20px;
       font-family: 'SFProDisplay', sans-serif;
+      @include fluid(font-size, 320px, 1440px, 16px, 20px);
     }
 
     &-wrapper {
@@ -504,9 +512,9 @@ $form-notify-font-weight: bold;
       width: calc(100% - #{$form-select-icon-width});
       padding-left: $form-select-value-padding-left;
       color: $form-select-placeholder-color;
-      font-size: $form-select-value-font-size;
       font-family: 'SFProDisplay', sans-serif;
       @include transition(color);
+      @include fluid(font-size, 320px, 1440px, 16px, 21px);
 
       .is-choose & {
         color: $form-select-value-color;

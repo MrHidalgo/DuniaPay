@@ -19,34 +19,35 @@ block content
   div.body.body--start(class!= pageClassName)
 
     .wrapper
-      main#main.main
-        .section__wrapper
-          .section__title
-            p!= "Payment method"
+      .wrapper__cover
+        main#main.main
+          .section__wrapper
+            .section__title
+              p!= "Payment method"
 
-          .section__scroll.section__scroll--cvv
+            .section__scroll.section__scroll--cvv
 
-            include ./components/_cvv
+              include ./components/_cvv
 
-            a.section__btn(href="#" class="" title="")
-              +iconSVG('plus')
+              a.section__btn(href="#" class="" title="")
+                +iconSVG('plus')
 
 
-      section#section.section
-        .section__wrapper
-          .section__title
-            p!= "My Profile"
+        section#section.section
+          .section__wrapper
+            .section__title
+              p!= "My Profile"
 
-          .section__scroll
+            .section__scroll
 
-            include ./components/_profile
+              include ./components/_profile
 
-          .section__row-bottom.section__info
-            .section__info-wrapper
-              div
-                +iconSVG('logo')
-              div
-                p.section__info-title
-                  span!= "Get a free transfer"
-                  +iconSVG('arrow-lg')
-                p.section__info-description!= "Share with friends and<br>get your next transfer free"
+            .section__row-bottom.section__info
+              .section__info-wrapper
+                div
+                  +iconSVG('logo')
+                div
+                  p.section__info-title
+                    span!= "Get a free transfer"
+                    +iconSVG('arrow-lg')
+                  p.section__info-description!= "Share with friends and<br>get your next transfer free"

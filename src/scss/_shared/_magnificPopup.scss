@@ -23,17 +23,23 @@
     height: 117px;
     padding-left: 30px;
     border-bottom: 1px solid #E0E2E8;
+    @include respond($mq-max-small) {
+      padding-left: 15px;
+    }
 
     p {
       color: #3D5170;
       letter-spacing: -0.88px;
-      font-size: 35px;
       font-family: 'Run', sans-serif;
+      @include fluid(font-size, 320px, 1920px, 20px, 35px);
     }
   }
 
   &__body {
     padding: 45px;
+    @include respond($mq-max-small) {
+      padding: 15px;
+    }
   }
 
   &__footer {
@@ -42,6 +48,9 @@
     justify-content: flex-end;
     height: 87px;
     padding: 0 45px 30px;
+    @include respond($mq-max-small) {
+      padding: 15px;
+    }
 
     .c-form__field {
       width: 100%;

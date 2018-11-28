@@ -37,13 +37,17 @@
         width: 100%;
         margin-right: 40px;
         max-width: calc((100% - (84px + 120px)) / 3);
+        @include respond($mq-max-extra-large) {
+          margin-right: 20px;
+          max-width: calc((100% - (84px + 60px)) / 3);
+        }
       }
     }
 
     &-th {
       display: flex;
       align-items: flex-end;
-      height: 38px;
+      min-height: 38px;
 
       span {
         color: #787993;
@@ -56,7 +60,7 @@
     &-td {
       display: flex;
       align-items: center;
-      height: 88px;
+      min-height: 88px;
       border-bottom: 1px solid #ECECEE;
 
       &-0 {
@@ -105,18 +109,21 @@
         > span {
           color: #25265E;
           font-weight: 600;
+          @include fluid(font-size, 320px, 1600px, 12px, 16px);
         }
       }
       &-2 {
         span {
           color: #25265E;
           letter-spacing: 0.27px;
+          @include fluid(font-size, 320px, 1600px, 12px, 16px);
         }
       }
       &-3 {
         span {
           color: #25265E;
           font-weight: bold;
+          @include fluid(font-size, 320px, 1600px, 12px, 16px);
         }
       }
     }
