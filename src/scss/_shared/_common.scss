@@ -3,7 +3,7 @@
 
 // wrapper
 .wrapper {
-  z-index: 99;
+  z-index: 98;
   overflow: hidden;
   position: fixed;
   display: flex;
@@ -53,6 +53,16 @@
     padding-left: 30px;
     padding-right: 30px;
     border-bottom: 1px solid #ECECEE;
+
+    &--checkbox {
+      display: flex;
+      align-items: center;
+
+      .c-form__field {
+        margin-right: 30px;
+        margin-bottom: 0;
+      }
+    }
 
     p {
       color: #25265E;

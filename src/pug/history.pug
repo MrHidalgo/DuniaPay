@@ -21,10 +21,12 @@ block content
     .wrapper
       main#main.main
         .section__wrapper
-          .section__title
+          .section__title.section__title--checkbox
+            +formCheckbox(dataFormObj.checkboxField)
             p!= "Transactions history"
 
           .section__scroll
+            include ./components/history/_history
 
             a.section__btn(href="#" class="" title="")
               +iconSVG('plus')

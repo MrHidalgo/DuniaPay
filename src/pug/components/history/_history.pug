@@ -1,0 +1,33 @@
+// SECTION HISTORY :: START
+
+section#history.history
+  .history__wrapper
+
+    .history__table
+      .history__table-head
+        .history__table-tr
+          .history__table-th.history__table-th-0
+          .history__table-th.history__table-th-1
+            span!= "Name"
+          .history__table-th.history__table-th-2
+            span!= "City"
+          .history__table-th.history__table-th-3
+            span!= "Collection mode"
+
+      .history__table-body
+        each val, idx in [0,1,2,3,4]
+          .history__table-tr
+            .history__table-td.history__table-td-0
+              +formCheckbox(dataFormObj['checkboxField' + idx])
+            .history__table-td.history__table-td-1
+              div
+                span
+                  img(src="./img/img-user.png" srcset="./img/img-user@2x.png 2x" alt="" title="")
+                i
+              span!= "Aleksander Sucheta"
+            .history__table-td.history__table-td-2
+              span!= "Kano"
+            .history__table-td.history__table-td-3
+              span!= "Mobile Money"
+
+// SECTION HISTORY :: END
