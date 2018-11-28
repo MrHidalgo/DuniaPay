@@ -93,11 +93,11 @@
   &__btn {
     z-index: 99;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    right: 40px;
+    right: calc(40px + 499px);
     bottom: 40px;
     width: 72px;
     height: 72px;
