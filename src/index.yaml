@@ -15,10 +15,10 @@ PageList:
   ready: 55
 - file: transfer.html
   titleName: New transfer
-  ready: 25
+  ready: 55
 - file: transfer-details.html
   titleName: Transfer details
-  ready: 25
+  ready: 55
 - file: transaction.html
   titleName: Transaction details
   ready: 55

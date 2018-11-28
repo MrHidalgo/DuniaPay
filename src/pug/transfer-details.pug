@@ -15,6 +15,9 @@ block aside
 block sidebar
   include ./components/_sidebar
 
+block modal
+  include ./components/_details-modal
+
 block content
   div.body.body--start(class!= pageClassName)
 
@@ -25,6 +28,8 @@ block content
             p!= "New transfer"
 
           .section__scroll
+
+            a(href="#personalDetails" data-effect='mfp-zoom-in' popup-js style='display:block;padding: 50px;')!= "Just for show - open modal"
 
             a.section__btn(href="#" class="" title="")
               +iconSVG('plus')

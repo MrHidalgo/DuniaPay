@@ -16,7 +16,7 @@ $form-field-margin: 30px;
 $form-field-input-height: 40px;
 $form-field-radio-height: $form-field-input-height;
 $form-field-checkbox-height: $form-field-input-height;
-$form-field-select-height: $form-field-input-height;
+$form-field-select-height: 58px;
 $form-field-textarea-height: 150px;
 
 // label
@@ -64,15 +64,15 @@ $form-checkbox-icon-inner-border-color: rgba(#000, 1);
 $form-checkbox-icon-inner-border-width: 1px;
 
 // select
-$form-select-border-radius: 5px;
+$form-select-border-radius: 6px;
 $form-select-border-width: 1px;
-$form-select-border-color: gray;
+$form-select-border-color: #BECAD6;
 $form-select-box-shadow: none;
 $form-select-icon-width: 50px;
 $form-select-value-padding-left: 20px;
-$form-select-value-color: #000;
-$form-select-value-font-size: $form-input-font-size;
-$form-select-placeholder-color: $form-input-placeholder-color;
+$form-select-value-color: #3D5170;
+$form-select-value-font-size: 20px;
+$form-select-placeholder-color: #B9BBBE;
 $form-select-placeholder-font-weight: $form-input-placeholder-font-weight;
 
 // textarea
@@ -394,6 +394,13 @@ $form-notify-font-weight: bold;
       color: #323C47;
       font-weight: 500;
     }
+
+    .c-form--details & {
+      color: #495057;
+      letter-spacing: -0.37px;
+      font-size: 21px;
+      font-family: 'Run', sans-serif;
+    }
   }
 
   &__input,
@@ -424,6 +431,12 @@ $form-notify-font-weight: bold;
         font-size: 13px;
         font-weight: normal;
       }
+
+      .c-form--details & {
+        color: #B9BBBE;
+        font-size: 20px;
+        font-weight: normal;
+      }
     }
   }
 
@@ -442,11 +455,23 @@ $form-notify-font-weight: bold;
       border: 1px solid #E9EFF4;
     }
 
+    .c-form--details & {
+      padding: 0 15px;
+      border-radius: 6px;
+      border: 1px solid #BECAD6;
+      font-size: 20px;
+      font-family: 'SFProDisplay', sans-serif;
+    }
+
     &-wrapper {
       height: $form-field-input-height;
 
       .c-form--cvv & {
         height: 45px;
+      }
+
+      .c-form--details & {
+        height: 58px;
       }
     }
   }
@@ -480,6 +505,7 @@ $form-notify-font-weight: bold;
       padding-left: $form-select-value-padding-left;
       color: $form-select-placeholder-color;
       font-size: $form-select-value-font-size;
+      font-family: 'SFProDisplay', sans-serif;
       @include transition(color);
 
       .is-choose & {

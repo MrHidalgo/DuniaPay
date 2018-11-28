@@ -1,18 +1,65 @@
 .modal {
+  overflow: hidden;
   position: relative;
   width: 100%;
-  //max-width: 500px;
-  //min-height: 200px;
+  max-width: 1034px;
+  min-height: 200px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 18px;
   background-color: #fff;
+
+  .mfp-close {
+    opacity: 1;
+    top: 36px;
+    right: 15px;
+    font-size: 38px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 117px;
+    padding-left: 30px;
+    border-bottom: 1px solid #E0E2E8;
+
+    p {
+      color: #3D5170;
+      letter-spacing: -0.88px;
+      font-size: 35px;
+      font-family: 'Run', sans-serif;
+    }
+  }
+
+  &__body {
+    padding: 45px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 87px;
+    padding: 0 45px 30px;
+
+    .c-form__field {
+      width: 100%;
+      align-items: flex-end;
+    }
+
+    button {
+      max-width: 220px;
+      font-family: 'Run', sans-serif;
+    }
+  }
 }
 
 
 //
 // Zoom in...
 // ==========
-.mfp-zoom-in{
+.mfp-zoom-in {
   .mfp-with-anim {
     opacity: 0;
     transition: all 0.3s ease-in-out;
@@ -49,7 +96,7 @@
 //
 // Slide in {Change translate{X,Y} option for choose direction slide - top, left, bottom, right} - default slide in left.
 // ==========
-.mfp-slide-in{
+.mfp-slide-in {
   .mfp-with-anim {
     opacity: 0;
     transition: all 0.3s ease-in-out;
