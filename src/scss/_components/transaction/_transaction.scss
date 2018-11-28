@@ -1,5 +1,159 @@
 // SECTION TRANSACTION :: START
 
-.transaction {}
+.transaction {
+  width: 100%;
+  padding: 15px;
+
+  &__title {
+    padding-bottom: 81px;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Run', sans-serif;
+    @include fluid(padding-top, 320px, 1920px, 15px, 50px);
+  }
+
+  &__box {
+    width: 100%;
+    padding: 30px 64px;
+    border-radius: 5px;
+    border-left: 8px solid #2DC76D;
+    background-color: rgba(#F6F6F6, 0.75);
+
+    &-0 {
+      margin-bottom: 37px;
+    }
+
+    &-wrapper {
+      width: 100%;
+      max-width: 519px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 37px;
+    }
+
+    &-title {
+      display: inline-flex;
+      align-items: center;
+      height: 27px;
+      padding: 5px 15px;
+      margin-bottom: 12px;
+      border-radius: 13px;
+      background-color: rgba(#3FB6DC, 0.1);
+      color: #3FB6DC;
+      letter-spacing: 0.23px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    &-subtitle {
+      color: #25265E;
+      letter-spacing: 0.27px;
+      font-size: 16px;
+      font-weight: 500;
+
+      &--color {
+        color: #787993;
+      }
+    }
+
+    &-address {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      p {
+        color: #787993;
+        letter-spacing: 0.23px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    &-rate {
+      color: #2DC76D;
+      letter-spacing: 0.25px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    &-img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    &-info {
+      display: flex;
+      align-items: center;
+
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        padding: 5px 25px;
+        margin-right: 17px;
+        border-radius: 10px;
+        border: 1px solid #ECECEE;
+        background-color: #fff;
+
+        &:first-of-type {
+          span {
+            color: #25265E;
+            font-weight: bold;
+          }
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+
+          span {
+            opacity: 0.5;
+            color: #25265E;
+          }
+        }
+      }
+    }
+
+    &-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 48px;
+      margin-right: 17px;
+      padding: 5px 30px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+
+      &--pay {
+        min-width: 129px;
+        background-color: rgba(#2DC76D, 0.1);
+        color: #2DC76D;
+      }
+
+      &--edit {
+        border: 1px solid #ECECEE;
+        color: #25265E;
+      }
+
+      &--new {
+        min-width: 129px;
+        background-color: rgba(#8B0A1A, 0.35);
+        color: $c-white;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &-wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+      }
+    }
+  }
+}
 
 // SECTION TRANSACTION :: END

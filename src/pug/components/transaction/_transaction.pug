@@ -1,0 +1,42 @@
+// SECTION TRANSACTION :: START
+
+section#transaction.transaction
+  h1.transaction__title!= "your transaction detail"
+
+  .transaction__box-wrapper
+    .transaction__box.transaction__box-0
+      .transaction__box-title
+        span!= "Today"
+
+      p.transaction__box-subtitle!= "Your sending 225.000 XOF to ILBOUDO ARISTIDE"
+      .transaction__box-address
+        p!= "Country : Burkina Faso"
+        p!= "Mobile : + 226 71 39 73 79"
+
+      p.transaction__box-rate!= "Your rate : 1 USD -> 585,375987 xof"
+      p.transaction__box-rate!= "Fee : $4,99"
+
+      .transaction__box-btn-wrapper
+        a.transaction__box-btn.transaction__box-btn--pay(href="#" class="" title="")!= "Confirm and pay"
+        a.transaction__box-btn.transaction__box-btn--edit(href="#" class="" title="")!= "Edit"
+
+    .transaction__box.transaction__box-1
+      .transaction__box-title
+        span!= "Payment method"
+
+      p.transaction__box-subtitle!= "Use this card ?"
+      p.transaction__box-subtitle.transaction__box-subtitle--color!= "Enter the ccv code to confirm"
+      
+      img.transaction__box-img(src="./img/img-visa.png" srcset="./img/img-visa@2x.png 2x" alt="" title="")
+
+      .transaction__box-info
+        div
+          span!= "43xx-xxxx-xxxx-1564"
+        div
+          span!= "CVV"
+
+      .transaction__box-btn-wrapper
+        a.transaction__box-btn.transaction__box-btn--pay(href="#" class="" title="")!= "Pay"
+        a.transaction__box-btn.transaction__box-btn--new(href="#" class="" title="")!= "Add new"
+
+// SECTION TRANSACTION :: END

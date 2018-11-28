@@ -24,7 +24,8 @@ block content
           .section__title
             p!= "New transfer"
 
-          .section__scroll
+          .section__scroll.section__scroll--transaction
+            include ./components/transaction/_transaction
 
             a.section__btn(href="#" class="" title="")
               +iconSVG('plus')

@@ -9,19 +9,19 @@ PageList:
   ready: 80
 - file: history.html
   titleName: History
-  ready: 15
+  ready: 25
 - file: history-empty.html
   titleName: History empty
   ready: 55
 - file: transfer.html
   titleName: New transfer
-  ready: 15
+  ready: 25
 - file: transfer-details.html
   titleName: Transfer details
-  ready: 15
+  ready: 25
 - file: transaction.html
   titleName: Transaction details
-  ready: 15
+  ready: 55
 - file: payment.html
   titleName: Add payment
   ready: 55
