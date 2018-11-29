@@ -16,9 +16,6 @@ PageList:
 - file: transfer.html
   titleName: New transfer
   ready: 80
-- file: transfer-details.html
-  titleName: Transfer details
-  ready: 80
 - file: transaction.html
   titleName: Transaction details
   ready: 80

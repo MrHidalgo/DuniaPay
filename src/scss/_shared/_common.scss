@@ -114,6 +114,10 @@
     position: relative;
     min-height: 500px;
     height: calc(100vh - (108px + 91px));
+    padding-bottom: 150px;
+    @include respond($mq-max-large) {
+      padding-bottom: 120px;
+    }
 
     #section & {
       height: calc(100% - (169px + 91px));
@@ -154,7 +158,8 @@
     box-shadow: 0 4px 29px 0 rgba(#7540EE, 0.4);
     @include transition(box-shadow);
     @include respond($mq-max-large) {
-      display: none;
+      right: 30px;
+      bottom: 30px;
     }
 
     &:hover {
