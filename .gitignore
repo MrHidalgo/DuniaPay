@@ -13,6 +13,8 @@ dest/
 # FILES
 # ==========
 package-lock.json
+landing/*.pdf
+landing/_DS_Store
 
 
 # EXTENSIONS
