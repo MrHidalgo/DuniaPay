@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>tab-clock-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-511.000000, -2603.000000)" fill="#F8F9FA">
+            <g id="Icons" transform="translate(235.000000, 2582.000000)">
+                <g id="Tab-Icons" transform="translate(216.000000, 21.000000)">
+                    <path d="M68,16 C63.581722,16 60,12.418278 60,8 C60,3.581722 63.581722,0 68,0 C72.418278,0 76,3.581722 76,8 C76,12.418278 72.418278,16 68,16 L68,16 L68,16 L68,16 Z M68,2 C64.6862915,2 62,4.6862915 62,8 C62,11.3137085 64.6862915,14 68,14 C71.3137085,14 74,11.3137085 74,8 C74,4.6862915 71.3137085,2 68,2 L68,2 L68,2 L68,2 Z M72,9 L68,9 C67.451211,9.00002223 67.0049391,8.55776681 67,8.009 L67,3.991 C67,3.43871525 67.4477153,2.991 68,2.991 C68.5522847,2.991 69,3.43871525 69,3.991 L69,7 L72,7 C72.5522847,7 73,7.44771525 73,8 C73,8.55228475 72.5522847,9 72,9 L72,9 L72,9 L72,9 Z" id="Clock-Icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

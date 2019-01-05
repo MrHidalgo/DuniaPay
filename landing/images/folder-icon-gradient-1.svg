@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>folder-icon-gradient-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7956EC" offset="0%"></stop>
+            <stop stop-color="#2FB9F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-703.000000, -2793.000000)" fill="url(#linearGradient-1)">
+            <g id="Gradient-Icons-24" transform="translate(583.000000, 2743.000000)">
+                <path d="M129.902877,54.0253766 L132.183,56.3055 C132.641657,56.7458212 133.25122,56.994261 133.887,57 L141,57 L141,69 L123,69 L123,54 L129.902877,54.0253766 Z M120,69 C120.007426,70.6578658 121.352618,71.9983662 123.0105,72 L140.9895,72 C141.786967,72.0027912 142.552729,71.6879532 143.117611,71.1250413 C143.682493,70.5621294 144.000005,69.7974721 144,69 L144,57 C144.000017,55.3484035 142.66508,54.0074322 141.0135,54 L134.105409,53.9829089 L131.817,51.6945 C131.354444,51.260218 130.747346,51.0127828 130.113,51 L122.9865,51 C121.33492,51.0074322 119.999983,52.3484035 120,54 L120,69 Z" id="Folder-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

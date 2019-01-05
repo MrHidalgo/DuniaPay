@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>search-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8E64" offset="0%"></stop>
+            <stop stop-color="#FFE641" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-335.000000, -2920.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 2720.000000)">
+                <g id="search-icon-big" transform="translate(100.000000, 200.000000)">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M44.4424814,46.5552254 C45.0282127,47.1482582 45.9749702,47.1482582 46.5607015,46.5552254 C47.1464328,45.9621926 47.1464328,45.0028307 46.5607015,44.4097979 L41.9385294,39.7902503 C43.2457713,38.0381962 44.019666,35.864809 44.019666,33.5106548 C44.019666,27.7057804 39.3142535,23 33.509833,23 C27.7054125,23 23,27.7057804 23,33.5106548 C23,39.3155292 27.7054125,44.0213096 33.509833,44.0213096 C35.8726598,44.0213096 38.0533711,43.2415195 39.8086942,41.9252311 L44.4424814,46.5552254 Z M26.0028094,33.5106548 C26.0028094,29.364316 29.3638184,26.0030442 33.509833,26.0030442 C37.6558476,26.0030442 41.0168565,29.364316 41.0168565,33.5106548 C41.0168565,37.6569936 37.6558476,41.0182654 33.509833,41.0182654 C29.3638184,41.0182654 26.0028094,37.6569936 26.0028094,33.5106548 Z" id="Loupe-Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

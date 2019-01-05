@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-792.000000, -506.000000)">
+            <g id="reviews-arrow-right-icon" transform="translate(792.000000, 506.000000)"></g>
+            <g id="reviews-arrow-left-icon" transform="translate(795.000000, 506.000000)" fill="#BABDC3">
+                <path d="M0.442905693,9.06050901 C0.157610585,8.77654007 0,8.40158108 0,7.99962504 C0,7.5986689 0.157610585,7.22171013 0.442905693,6.93974097 L7.27502527,0.292468011 C7.67004927,-0.0974893371 8.30847189,-0.0974893371 8.70349589,0.292468011 C9.09752235,0.68342525 9.09752235,1.31635602 8.70349589,1.70631337 L2.22749643,7.99962504 L8.70349589,14.2929367 C9.09752235,14.6828941 9.09752235,15.3158248 8.70349589,15.7067821 C8.30847189,16.0977393 7.67004927,16.0977393 7.27502527,15.7067821 L0.442905693,9.06050901 Z" id="Arrow-Left-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

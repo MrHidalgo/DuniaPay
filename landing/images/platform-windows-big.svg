@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>platform-windows-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#AD2AB9" offset="0%"></stop>
+            <stop stop-color="#FF618C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-775.000000, -600.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 600.000000)">
+                <g id="platform-windows-big" transform="translate(540.000000, 0.000000)">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M34.1575238,26.6058768 C37.7472857,26.0219431 41.4102857,25.5109953 45,25 L45,34.4890521 C41.4102381,34.4890521 37.7472381,34.5620379 34.1574762,34.5620379 L34.1574762,26.6058768 L34.1574762,26.6058768 L34.1575238,26.6058768 Z M25,27.8467299 C27.710619,27.4087678 30.4212381,27.0438389 33.2051429,26.7519431 L33.2051429,34.5623697 C30.4212381,34.5623697 27.710619,34.6354028 25,34.6354028 L25,27.8467299 L25,27.8467299 Z M25,35.4379621 C27.710619,35.4379621 30.4212381,35.5109479 33.2051429,35.4379621 L33.2051429,43.3211374 C30.4212381,42.9562085 27.710619,42.5912796 25,42.2263507 L25,35.4379621 Z M34.1575238,35.5109479 L45,35.5109479 L45,45 C41.4102381,44.4160664 37.7472381,43.9781043 34.1574762,43.4671564 L34.1574762,35.5109479 L34.1574762,35.5109479 L34.1575238,35.5109479 Z" id="Windows-Logo" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

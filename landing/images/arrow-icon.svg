@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="8px" viewBox="0 0 24 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-662.000000, -490.000000)" fill="#D3D5DA">
+            <path d="M679,493 L662.993398,493 C662.444946,493 662,493.447715 662,494 C662,494.556135 662.444759,495 662.993398,495 L679,495 L679,496.998842 C679,497.775837 679.847971,498.255764 680.514496,497.856004 L685.514496,494.857162 C686.161835,494.468908 686.161835,493.531092 685.514496,493.142838 L680.514496,490.143996 C679.847971,489.744236 679,490.224163 679,491.001158 L679,493 Z" id="Arrow-Icon"></path>
+        </g>
+    </g>
+</svg>

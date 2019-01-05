@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-icon-gradient-6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5134B3" offset="0%"></stop>
+            <stop stop-color="#B175EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-1041.000000, -703.000000)" fill="url(#linearGradient-1)">
+            <g id="Small-Icons-Color" transform="translate(681.000000, 703.000000)">
+                <path d="M372,24 C365.372583,24 360,18.627417 360,12 C360,5.372583 365.372583,0 372,0 C378.627417,0 384,5.372583 384,12 C384,18.627417 378.627417,24 372,24 L372,24 L372,24 L372,24 Z M372,3 C367.029437,3 363,7.02943725 363,12 C363,16.9705627 367.029437,21 372,21 C376.970563,21 381,16.9705627 381,12 C381,7.02943725 376.970563,3 372,3 L372,3 L372,3 L372,3 Z M378,13.5 L372,13.5 C371.176816,13.5000333 370.507409,12.8366502 370.5,12.0135 L370.5,5.9865 C370.5,5.15807288 371.171573,4.4865 372,4.4865 C372.828427,4.4865 373.5,5.15807288 373.5,5.9865 L373.5,10.5 L378,10.5 C378.828427,10.5 379.5,11.1715729 379.5,12 C379.5,12.8284271 378.828427,13.5 378,13.5 L378,13.5 L378,13.5 L378,13.5 Z" id="Clock-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

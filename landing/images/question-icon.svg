@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>question-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="20" cy="20" rx="20" ry="20"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-760.000000, -469.000000)">
+            <g id="question-icon" transform="translate(760.000000, 469.000000)">
+                <use id="Base" stroke="#E7E8EA" mask="url(#mask-2)" stroke-width="2" fill="#F8F9FA" xlink:href="#path-1"></use>
+                <path d="M17.7972177,26.3694268 C17.7972177,27.3205945 18.5332404,28 19.507055,28 C20.5374867,28 21.2621859,27.3205945 21.2621859,26.3694268 C21.2621859,25.3842887 20.5374867,24.6935598 19.507055,24.6935598 C18.5332404,24.6935598 17.7972177,25.3842887 17.7972177,26.3694268 Z M15.0003317,16.5067233 L17.1631059,16.5067233 C17.1631059,15.1026185 18.0123628,14.0042463 19.7108766,14.0042463 C20.9791003,14.0042463 22.1680599,14.6270347 22.1680599,16.1217268 C22.1680599,17.2540694 21.4999778,17.7749469 20.4468993,18.5675867 C19.2805865,19.4508139 18.284125,20.4585987 18.3294187,22.1118188 L18.3407422,22.9497523 L20.5035164,22.9497523 L20.5035164,22.3043171 C20.5035164,21.02477 20.9791003,20.651097 22.2926176,19.6433121 C23.368343,18.8280255 24.5006855,17.8995046 24.5006855,15.9858457 C24.5006855,13.2908705 22.2473239,12 19.8241109,12 C17.5481024,12 14.9663614,13.143666 15.0003317,16.5067233 Z" id="Question-Icon" fill="#999EA8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

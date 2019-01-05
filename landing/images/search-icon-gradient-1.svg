@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>search-icon-gradient-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7956EC" offset="0%"></stop>
+            <stop stop-color="#2FB9F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-643.000000, -2793.000000)" fill="url(#linearGradient-1)">
+            <g id="Gradient-Icons-24" transform="translate(583.000000, 2743.000000)">
+                <path d="M81.4424814,73.5552254 C82.0282127,74.1482582 82.9749702,74.1482582 83.5607015,73.5552254 C84.1464328,72.9621926 84.1464328,72.0028307 83.5607015,71.4097979 L78.9385294,66.7902503 C80.2457713,65.0381962 81.019666,62.864809 81.019666,60.5106548 C81.019666,54.7057804 76.3142535,50 70.509833,50 C64.7054125,50 60,54.7057804 60,60.5106548 C60,66.3155292 64.7054125,71.0213096 70.509833,71.0213096 C72.8726598,71.0213096 75.0533711,70.2415195 76.8086942,68.9252311 L81.4424814,73.5552254 Z M63.0028094,60.5106548 C63.0028094,56.364316 66.3638184,53.0030442 70.509833,53.0030442 C74.6558476,53.0030442 78.0168565,56.364316 78.0168565,60.5106548 C78.0168565,64.6569936 74.6558476,68.0182654 70.509833,68.0182654 C66.3638184,68.0182654 63.0028094,64.6569936 63.0028094,60.5106548 Z" id="Loupe-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-icon-gradient-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#AD2AB9" offset="0%"></stop>
+            <stop stop-color="#FF618C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-1101.000000, -703.000000)" fill="url(#linearGradient-1)">
+            <g id="Small-Icons-Color" transform="translate(681.000000, 703.000000)">
+                <path d="M439,24 L424,24 C422.343146,24 421,22.6568542 421,21 L421,9 C421,7.34314575 422.343146,6 424,6 L425.5,6 C425.5,2.6862915 428.186292,0 431.5,0 C434.813708,0 437.5,2.6862915 437.5,6 L439,6 C440.656854,6 442,7.34314575 442,9 L442,21 C442,22.6568542 440.656854,24 439,24 L439,24 L439,24 Z M431.5,3 C429.843146,3 428.5,4.34314575 428.5,6 L434.5,6 C434.5,4.34314575 433.156854,3 431.5,3 L431.5,3 L431.5,3 Z M439,9 L424,9 L424,21 L439,21 L439,9 L439,9 L439,9 Z M431.5,12 C433.156854,12 434.5,13.3431458 434.5,15 C434.5,16.6568542 433.156854,18 431.5,18 C429.843146,18 428.5,16.6568542 428.5,15 C428.5,13.3431458 429.843146,12 431.5,12 L431.5,12 L431.5,12 Z" id="Lock-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

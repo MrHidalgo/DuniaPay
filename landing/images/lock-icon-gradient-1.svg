@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-icon-gradient-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7956EC" offset="0%"></stop>
+            <stop stop-color="#2FB9F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-643.000000, -2843.000000)" fill="url(#linearGradient-1)">
+            <g id="Gradient-Icons-24" transform="translate(583.000000, 2743.000000)">
+                <path d="M79,124 L64,124 C62.3431458,124 61,122.656854 61,121 L61,109 C61,107.343146 62.3431458,106 64,106 L65.5,106 C65.5,102.686292 68.1862915,100 71.5,100 C74.8137085,100 77.5,102.686292 77.5,106 L79,106 C80.6568542,106 82,107.343146 82,109 L82,121 C82,122.656854 80.6568542,124 79,124 L79,124 L79,124 Z M71.5,103 C69.8431458,103 68.5,104.343146 68.5,106 L74.5,106 C74.5,104.343146 73.1568542,103 71.5,103 L71.5,103 L71.5,103 Z M79,109 L64,109 L64,121 L79,121 L79,109 L79,109 L79,109 Z M71.5,112 C73.1568542,112 74.5,113.343146 74.5,115 C74.5,116.656854 73.1568542,118 71.5,118 C69.8431458,118 68.5,116.656854 68.5,115 C68.5,113.343146 69.8431458,112 71.5,112 L71.5,112 L71.5,112 Z" id="Lock-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>
